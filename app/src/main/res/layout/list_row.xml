@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/lblName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:textSize="25dp"
+            />
+        <TextView
+            android:id="@+id/lblLength"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="length"
+            />
+        <TextView
+            android:id="@+id/lblCreated"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="created"
+            />
+    </LinearLayout>
+
+</FrameLayout>
